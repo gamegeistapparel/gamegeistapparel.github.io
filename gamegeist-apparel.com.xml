@@ -6,43 +6,43 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://www.gamegeist-apparel.com/index.html</loc>
-    <changefreq>Monthly</changefreq>
+    <changefreq>Daily</changefreq>
     <priority>1</priority>
     <lastmod>2018-07-23T13:20:45Z</lastmod>
   </url>
   <url>
     <loc>https://www.gamegeist-apparel.com/shop.html</loc>
-    <changefreq>Monthly</changefreq>
+    <changefreq>Daily</changefreq>
     <priority>1</priority>
     <lastmod>2018-07-23T13:20:45Z</lastmod>
   </url>
   <url>
     <loc>https://www.gamegeist-apparel.com/about.html</loc>
-    <changefreq>Monthly</changefreq>
+    <changefreq>Daily</changefreq>
     <priority>1</priority>
     <lastmod>2018-07-23T13:20:45Z</lastmod>
   </url>
   <url>
     <loc>https://www.gamegeist-apparel.com/lookbook.html</loc>
-    <changefreq>Monthly</changefreq>
+    <changefreq>Daily</changefreq>
     <priority>1</priority>
     <lastmod>2018-07-23T13:20:45Z</lastmod>
   </url>
   <url>
     <loc>https://www.gamegeist-apparel.com/custom-orders.html</loc>
-    <changefreq>Monthly</changefreq>
+    <changefreq>Daily</changefreq>
     <priority>1</priority>
     <lastmod>2018-07-23T13:20:45Z</lastmod>
   </url>
   <url>
     <loc>https://www.gamegeist-apparel.com/return-policy.html</loc>
-    <changefreq>Monthly</changefreq>
+    <changefreq>Daily</changefreq>
     <priority>1</priority>
     <lastmod>2018-07-23T13:20:45Z</lastmod>
   </url>
   <url>
     <loc>https://www.gamegeist-apparel.com/size-guide.html</loc>
-    <changefreq>Monthly</changefreq>
+    <changefreq>Daily</changefreq>
     <priority>1</priority>
     <lastmod>2018-07-23T13:20:45Z</lastmod>
   </url>
