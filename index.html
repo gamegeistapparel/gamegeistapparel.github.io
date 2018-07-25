@@ -83,10 +83,10 @@ gtag('config', 'UA-122656489-1');
 				<div class="inner">
 					<span><img src="images/logos/gamegeist-logo.png" alt="" style="width: 115px; height: 115px;" /></span>
 					<h1 style="font-family: 'Bitter', serif; font-style: normal;">GameGeist Apparel</h1>
-					<h5><em>Pre-order our first collection of trendy men and women college gameday apparel for the University of Southern California.</em></h5>
+					<h5><em>Pre-order our first collection of trendy men and women college gameday apparel.</em></h5>
 					<ul class="actions">
-						<li><a href="shop.html" class="button special icon fa-search wide scrolly-middle">View Products</a></li>
-						<li><a href="#contact" class="button icon fa-shopping-cart wide scrolly-middle">Pre-Order</a></li>
+						<li><a href="shop.html" class="button special icon fa-search wide">View Products</a></li>
+						<li><a href="#contact" class="button icon fa-shopping-cart wide">Pre-Order Now</a></li>
 					</ul>
 				</div>
 			</section>
@@ -107,7 +107,7 @@ gtag('config', 'UA-122656489-1');
 									<h3><a href="shop.html#women">WOMEN</a></h3>
 									<p>Explore our bodysuit, crop-top, and bandeau.</p>
 									<ul class="actions">
-										<li><a href="shop.html#women" class="button icon fa-female special accent1">BROWSE WOMEN</a></li>
+										<li><a href="shop.html#women" class="button special accent1">BROWSE WOMEN</a></li>
 									</ul>
 								</div>
 							</article>
@@ -119,7 +119,7 @@ gtag('config', 'UA-122656489-1');
 									<h3><a href="shop.html#men">MEN</a></h3>
 									<p>Explore our distressed shirt, pocket t-shirt, and muscle tee.</p>
 									<ul class="actions">
-										<li><a href="shop.html#men" class="button icon fa-male special accent1">BROWSE MEN</a></li>
+										<li><a href="shop.html#men" class="button special accent1">BROWSE MEN</a></li>
 									</ul>
 								</div>
 							</article>
@@ -201,9 +201,8 @@ gtag('config', 'UA-122656489-1');
 
 					<hr />
 
-					<div class="box alt">
 						<div class="row 50% uniform">
-							<div class="6u">
+							<div class="6u" id="mobileHide">
 								<h3>Venmo @gamegeist</h3>
 								<h4>And fill out our form below to secure a limited-stock item today.</h4>
 								<!-- Functional HTM Form with Formspree -->
@@ -223,43 +222,11 @@ gtag('config', 'UA-122656489-1');
 												<input type="email" name="email" id="email" value="" placeholder="Email" />
 											</div>
 
-											<!-- Products -->
-											<!-- <div class="4u">
-												<div class="6u 12u$(small)">
-													<input type="checkbox" id="bodysuit" name="bodysuit">
-													<label for="bodysuit">Women's Bodysuit</label>
-												</div>
-												<div class="6u$ 12u$(small)">
-													<input type="checkbox" id="bandeau" name="bandeau">
-													<label for="bandeau">Women's Bandeau</label>
-												</div>
-											</div>
-											<div class="4u">
-												<div class="6u$ 12u$(small)">
-													<input type="checkbox" id="croptop" name="croptop">
-													<label for="croptop">Women's Crop Top</label>
-												</div>
-												<div class="6u$ 12u$(small)">
-													<input type="checkbox" id="distressed" name="distressed">
-													<label for="distressed">Men's Distressed Tee</label>
-												</div>
-											</div>
-											<div class="4u">
-												<div class="6u$ 12u$(small)">
-													<input type="checkbox" id="pocket" name="pocket">
-													<label for="pocket">Men's Pocket Tee</label>
-												</div>
-												<div class="6u$ 12u$(small)">
-													<input type="checkbox" id="muscle" name="muscle">
-													<label for="muscle">Men's Muscle Tee</label>
-												</div>
-											</div> -->
-
 											<!-- Product Select -->
 											<div class="12u$">
 												<div>
 													<select multiple name="product" id="category" style="padding-bottom: 20%;">
-														<option value="">— Product (Press Ctr+C to Select Multiple) —</option>
+														<option value="">— Product —</option>
 														<option value="Women's Bodysuit">Women's Bodysuit ($30)</option>
 														<option value="Women's Crop Top">Women's Crop Top ($25)</option>
 														<option value="Women's Bandeau">Women's Bandeau ($20)</option>
@@ -309,11 +276,93 @@ gtag('config', 'UA-122656489-1');
 										</div>
 									</form>
 							</div>
-							<div class="6u">
-								<span class="image fit"><img src="images/venmo.png" alt="" /></span>
+
+							<div class="12u" id="mobileShow">
+								<h3>Venmo @gamegeist</h3>
+								<h4>And fill out our form below to secure a limited-stock item today.</h4>
+								<!-- Functional HTM Form with Formspree -->
+									<form action="https://formspree.io/gamegeistapparel@gmail.com" method="POST">
+										<div class="row uniform">
+
+											<!-- For Email Notifications -->
+											<input type="hidden" name="_subject" value="New Order!" />
+
+											<!-- Name -->
+											<div class="6u 12u$(xsmall)">
+												<input type="text" name="name" id="name" value="" placeholder="Name" />
+											</div>
+
+											<!-- Email -->
+											<div class="6u$ 12u$(xsmall)">
+												<input type="email" name="email" id="email" value="" placeholder="Email" />
+											</div>
+
+											<!-- Product Select -->
+											<div class="12u$">
+												<div>
+													<select multiple name="product" id="category" style="padding-bottom: 20%;">
+														<option value="">— Product —</option>
+														<option value="Women's Bodysuit">Women's Bodysuit ($30)</option>
+														<option value="Women's Crop Top">Women's Crop Top ($25)</option>
+														<option value="Women's Bandeau">Women's Bandeau ($20)</option>
+														<option value="Men's Distressed Tee">Men's Distressed Tee ($35)</option>
+														<option value="Men's Pocket Tee">Men's Pocket Tee ($30)</option>
+														<option value="Men's Muscle Tee">Men's Muscle Tee ($25)</option>
+													</select>
+												</div>
+											</div>
+											<!-- Size Select -->
+											<div class="12u$">
+												<div class="select-wrapper">
+													<select name="size" id="category">
+														<option value="">— Size —</option>
+														<option value="XS">XS (Women's Bodysuit Only)</option>
+														<option value="S">S</option>
+														<option value="M">M</option>
+														<option value="L">L</option>
+														<option value="2XL">2XL (Men's Only)</option>
+													</select>
+												</div>
+											</div>
+											<!-- Quantity Select -->
+											<div class="12u$">
+												<div class="select-wrapper">
+													<select name="quantity" id="category">
+														<option value="">— Quantity —</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5 or more">5 or more</option>
+													</select>
+												</div>
+											</div>
+											<!-- Message -->
+											<div class="12u$">
+												<textarea name="message" id="message" placeholder="Enter your venmo username. If you selected more than one product, please also specify each size." rows="3"></textarea>
+											</div>
+											<!-- Buttons -->
+											<div class="12u$">
+												<ul class="actions">
+													<li><input type="submit" value="Send" class="special" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+							</div>
+
+							<!-- Venmo Screenshot -->
+								<div class="6u" id="mobileHide">
+									<span class="image fit"><img src="images/venmo.png" alt="GameGeist Apparel Venmo" /></span>
+								</div>
+							</div>
+
+							<!-- Mobile Only View -->
+							<div class="12u" id="mobileShow">
+									<span class="image fit"><img src="images/venmo.png" alt="GameGeist Apparel Venmo" /></span>
 							</div>
 						</div>
-					</div>
 
 					<!-- Future Mailchimp Integration -->
 					<!-- <form method="post" action="#" class="combined">

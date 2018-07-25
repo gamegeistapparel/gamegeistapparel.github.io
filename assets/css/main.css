@@ -5265,3 +5265,20 @@
 				}
 
 		}
+
+/* Hide or Show Mobile or Desktop With this ID Tag */
+@media screen and (max-width: 600px) {
+	#mobileHide {
+		visibility: hidden;
+		display: none;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	#mobileShow {
+		visibility: hidden;
+		display: none;
+		max-height: 0;
+		overflow: hidden;
+	}
+}
